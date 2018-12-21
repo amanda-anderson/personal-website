@@ -1,0 +1,154 @@
+/*
+ * Theme: Personal Webpage [Dark]
+ * Author: Amanda Anderson
+ * Date: Dec 2019
+ *
+ * Main Colors
+ * Dark Gray: #232323
+ * Dark Pink: #73466D
+*/
+
+*{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.section{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 85px 8px 8px 8px;
+}
+
+nav{
+    position: fixed;
+    height: 55px;
+    background-color:rgba(35, 35, 35, 0.7);
+    color: white;
+    width: 100%;
+    line-height: 55px;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+}
+
+nav a:hover {
+    color: #c29abc;
+}
+
+.active {
+    color: #c29abc;
+}
+
+#section1 {
+    background: url("https://raw.githubusercontent.com/amanda-anderson/personal-website-V2/master/intro-background.jpg");
+    background-color: rgb(31, 31, 31);
+    color: white;
+    text-align: center;
+
+    /* Parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section2 {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    text-align: center;
+}
+
+#section3 {
+    background-color: #e00079;
+    color: white;
+}
+
+#section4 {
+    background-color: darkcyan;
+    color: white;
+}
+
+#intro-line1 {
+    font-size: 50pt;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+#intro-line2 {
+    font-size: 30pt;
+    padding-bottom: 15px;
+}
+
+#intro-line3 {
+    font-size: 15pt;
+    width: 800px;
+    padding-bottom: 30px;
+}
+
+#intro {
+    background-color: rgba(1, 1, 1, 0);
+    width: 960px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 75px;
+}
+
+#about {
+    background-color: rgba(1, 1, 1, 0.5);
+    width: 960px;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.social-icon {
+    height: 50px;
+    width: auto;
+    padding-right: 18px;
+}
+
+#home-btn {
+    height: 35px;
+    width: auto;
+    -webkit-transform: translate(+10%, +28%); 
+}
+
+.social-icon:hover {
+    transform: scale(1.07);
+}
+
+#profile-photo {
+    max-width: 275px;
+    height: auto;
+    border-radius: 50%;
+    border-width: 2px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    box-shadow: 0px 0px 20px #c29abc;
+}
+
+#mini-manifesto {
+    width: 800px;
+    margin: 0 auto;
+}
