@@ -146,6 +146,7 @@ nav a:hover {
     margin-top: 10px;
     margin-bottom: 14px;
     box-shadow: 0px 0px 20px #c29abc;
+    filter: grayscale(15%);
 }
 
 #mini-manifesto {
