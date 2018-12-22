@@ -94,7 +94,12 @@ nav a:hover {
 }
 
 #section4 {
-    background-color: darkcyan;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+#section5 {
+    background-color: rgb(134, 134, 134);
     color: white;
 }
 
