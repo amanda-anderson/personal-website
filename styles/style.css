@@ -223,8 +223,9 @@ nav a:hover {
     border: none;
     color: white;
     background-color: palevioletred;
-    padding: 10px;
+    padding: 8px;
     margin: 5px;
+    font-size: 11pt;
 }
 
 .job-title:hover {
