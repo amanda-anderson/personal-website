@@ -134,6 +134,14 @@ nav a:hover {
     width: 960px;
     display: inline-block;
     padding: 20px;
+    border-radius: 4px;
+}
+
+#experience {
+    background-color: rgba(1, 1, 1, 0.7);
+    width: 960px;
+    display: inline-block;
+    padding: 20px;
 }
 
 .social-icon {
@@ -168,7 +176,7 @@ nav a:hover {
     margin: 0 auto;
 }
 
-ul li::before {
+#familiar-tech li::before {
     content: "\2023";  /* \2022 is the CSS Code/unicode for a bullet */
     font-weight: bold;
     font-size: 14pt;
@@ -178,7 +186,7 @@ ul li::before {
     color: palevioletred;
 }
 
-ul {
+#familiar-tech {
     list-style: none; /* Remove default bullets */
     font-family: "Raleway", sans-serif;
     font-weight: normal;
@@ -193,4 +201,45 @@ ul {
     margin-right: auto;
     text-align: left;
     padding-left: 100px;
+}
+
+#exp-explorer {
+    width: 650px;
+    background-color: gray;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+#job-title-list {
+    margin-left: 0;
+    background: rgb(22, 22, 22);
+    width: 125px;
+}
+
+.job-title {
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: palevioletred;
+    padding: 10px;
+    margin: 5px;
+}
+
+.job-title:hover {
+    color: palevioletred;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.job-title:active {
+    color: palevioletred;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.job-title:focus {
+    outline: 0;
 }
