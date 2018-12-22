@@ -138,10 +138,11 @@ nav a:hover {
 }
 
 #experience {
-    background-color: rgba(1, 1, 1, 0.7);
     width: 960px;
     display: inline-block;
     padding: 20px;
+    margin-top: 50px;
+    margin-bottom: auto;
 }
 
 .social-icon {
@@ -209,11 +210,12 @@ nav a:hover {
     margin-left: auto;
     text-align: left;
     display: flex;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 #job-title-list {
     margin-left: 0;
-    background: rgb(22, 22, 22);
     width: 125px;
 }
 
@@ -224,7 +226,7 @@ nav a:hover {
     color: white;
     background-color: palevioletred;
     padding: 8px;
-    margin: 5px;
+    margin: 6px;
     font-size: 11pt;
 }
 
@@ -251,7 +253,7 @@ nav a:hover {
     display: flex;
     flex-flow: row wrap;
     padding: 10px;
-    background-color: gray;
+    background-color: rgba(50, 50, 50, 0.9);
     border-radius: 5px;
     margin: 5px;
 }
