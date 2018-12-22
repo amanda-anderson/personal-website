@@ -5,7 +5,8 @@
  *
  * Main Colors
  * Dark Gray: #232323
- * Dark Pink: #73466D
+ * Pink: palevioletred
+ * 
 */
 
 *{
@@ -28,7 +29,7 @@ html, body{
 }
 
 .section{
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     box-sizing: border-box;
     padding: 85px 8px 8px 8px;
@@ -76,11 +77,20 @@ nav a:hover {
     background-color: rgb(31, 31, 31);
     color: white;
     text-align: center;
+    height: auto;
 }
 
 #section3 {
-    background-color: #e00079;
+    background: url("https://raw.githubusercontent.com/amanda-anderson/personal-website-V2/master/images/exp-background.jpg");
+    background-color: rgb(31, 31, 31);
+    text-align: center;
     color: white;
+
+    /* Parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #section4 {
