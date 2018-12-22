@@ -52,11 +52,11 @@ nav a{
 }
 
 nav a:hover {
-    color: #c29abc;
+    color: palevioletred;
 }
 
 .active {
-    color: #c29abc;
+    color: palevioletred;
 }
 
 #section1 {
@@ -118,7 +118,6 @@ nav a:hover {
     background-color: rgba(1, 1, 1, 0.5);
     width: 960px;
     display: inline-block;
-    margin-top: 30px;
     padding: 20px;
 }
 
@@ -139,17 +138,44 @@ nav a:hover {
 }
 
 #profile-photo {
-    max-width: 275px;
+    max-width: 250px;
     height: auto;
     border-radius: 50%;
     border-width: 2px;
     margin-top: 10px;
     margin-bottom: 14px;
-    box-shadow: 0px 0px 20px #c29abc;
+    box-shadow: 0px 0px 20px palevioletred;
     filter: grayscale(15%);
 }
 
 #mini-manifesto {
     width: 800px;
     margin: 0 auto;
+}
+
+ul li::before {
+    content: "\2023";  /* \2022 is the CSS Code/unicode for a bullet */
+    font-weight: bold;
+    font-size: 14pt;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    color: palevioletred;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    list-style-position: outside;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    width: 400px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 100px;
 }
