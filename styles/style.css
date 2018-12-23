@@ -327,7 +327,13 @@ nav a:hover {
 }
 
 #isles-dunya {
-    background: url("https://github.com/amanda-anderson/personal-website-V2/blob/master/images/news-collective.PNG?raw=true");
-    background-size: contain;
+    background: url("https://github.com/amanda-anderson/personal-website-V2/blob/master/images/isles-of-dunya.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+#spooky-soo {
+    background: url("https://github.com/amanda-anderson/personal-website-V2/blob/master/images/isles-of-dunya.png?raw=true");
+    background-size: cover;
     background-position: center;
 }
