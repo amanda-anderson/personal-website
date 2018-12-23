@@ -18,6 +18,9 @@ $("a").click(function (e) {
 
 // Function to display job description on button click
 function displayJobDesc(btnID, title, date, company) {
+
+    $(".job-text").hide();
+
     document.getElementById("selected-job-title").innerHTML = title;
     document.getElementById("date-worked").innerHTML = date;
     document.getElementById("company-name").innerHTML = company;
@@ -68,6 +71,7 @@ function displayJobDesc(btnID, title, date, company) {
         description += '<li>Represent the Environmental Services Section at numerous public outreach events to educate citizens about stormwater and water quality</li>';
         document.getElementById("job-desc-points").innerHTML = description;
     }
+    $(".job-text").fadeIn("slow");
   }
 
   // Set latest job as default display in Experience

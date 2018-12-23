@@ -257,7 +257,7 @@ nav a:hover {
     display: flex;
     flex-flow: row wrap;
     padding: 10px;
-    background-color: rgba(50, 50, 50, 0.9);
+    background-color: rgba(25, 25, 25, 0.9);
     border-radius: 5px;
     margin: 5px;
 }
