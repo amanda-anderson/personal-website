@@ -299,6 +299,10 @@ nav a:hover {
     border: 3px solid white;
 }
 
+.element:hover {
+    transform: scale(1.005);
+}
+
 .portImg {
     height: 220px;
     width: 275px;
@@ -362,7 +366,7 @@ nav a:hover {
     background-color: #232323;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid palevioletred;
+    border: 2px solid palevioletred;
     border-radius: 2px;
     width: 650px;
   }
@@ -376,7 +380,7 @@ nav a:hover {
   
   .close:hover,
   .close:focus {
-    color: black;
+    color: palevioletred;
     text-decoration: none;
     cursor: pointer;
   }
