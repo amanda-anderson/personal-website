@@ -99,6 +99,22 @@ jQuery(function(){
         extLink = "https://amanda-anderson.github.io/news-collective/";
     }
 
+    if (id == "isles-dunya"){
+        document.getElementById("project-title").innerHTML= "Isles of Dunya";
+        mainText = "A personal game project with the goal of creating a challenging and fun 3D platformer with low poly models and smooth game physics. In the Isles of Dunya, the player must help the character collect special flowers to unlock passage to the next level. The player must maneuver through a variety of tricky obstacles without falling off.";
+        keyWords = "Unity, C#";
+        gitLink = "https://github.com/amanda-anderson/isles-of-dunya";
+        extLink = "https://www.youtube.com/watch?v=DTBmSJ3MSu8";
+    }
+
+    if (id == "spooky-soo"){
+        document.getElementById("project-title").innerHTML= "Spooky Soo";
+        mainText = "A Halloween-themed interactive web map showcasing Sault Ste Marie's most spooky locations. Do you have a location that should be included? Send me an email via the contact page!";
+        keyWords = "Leaflet.js, HTML/CSS";
+        gitLink = "https://github.com/amanda-anderson/spooky-soo";
+        extLink = "https://spookysoo.000webhostapp.com/";
+    }
+
     document.getElementById("project-main-text").innerHTML = mainText;
     document.getElementById("project-key-words").innerHTML = keyWords;
     document.getElementById("port-git-link").href = gitLink;
