@@ -266,6 +266,10 @@ nav a:hover {
     width: 70%;
 }
 
+#company-name {
+    color: palevioletred;
+}
+
 #job-description {
     width: 100%;
     height: 75%;
