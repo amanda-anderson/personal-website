@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Amanda Anderson</title>
+    <meta name="author" content="A. Anderson">
+    <meta name="language" content="English">
+    <meta name="geo.region" content="CA-ON">
+    <meta name="geo.placename" content="Toronto">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Computer science student based in Sault Ste Marie, ON who specializes in developing high-quality websites and applications." data-react-helmet="true">
+    <meta name="keywords" content="Amanda Anderson, Amanda, Anderson, software engineer, software developer, web developer, javascript, personal website, algoma, guelph" data-react-helmet="true">
     <link rel="icon" href="images/site-icon.png">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -19,6 +26,7 @@
             <a href="#" id="5">Contact</a>
     </nav>
 
+    <!-- Home Page -->
     <div class="section" id="section1">
         <div id="intro">
                 <p contenteditable="false" id="intro-line1">Hi<span style="color: palevioletred">, </span> I<span style="color: palevioletred">'</span>m Amanda</p>
@@ -31,6 +39,7 @@
     </div>
 
     <div class="section" id="section2">
+        <!-- About Section -->
             <div id="about">
                 <img id="profile-photo" src="images/me.jpg">
                 <p style="font-size: 14pt; margin-bottom: 15px; color: palevioletred;">Passions and Personality</p>
@@ -52,6 +61,7 @@
     </div>
 
     <div class="section" id="section3">
+        <!-- Work Experience -->
         <div id="experience">
             <p style="font-size: 18pt;">Where I've Worked</p><br>
             <div id="exp-explorer">
@@ -79,24 +89,27 @@
             <p style="font-size: 18pt; color: palevioletred;">Portfolio</p><br>
             <div id="portfolio-grid">
 
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-                    <!-- Modal content -->
+                <!-- Portfolio Modal -->
+                <div id="portModal" class="modal">
                     <div class="modal-content">
                         <div class="modal-header">
                             <span class="close">&times;</span>
-                            <h2>Modal Header</h2>
+                            <h2 id="project-title">Modal Header</h2>
                         </div>
                         <div class="modal-body">
-                            <p>Some text in the Modal Body</p>
-                            <p>Some other text...</p>
+                            <p id="project-key-words">html5, CSS, Ajax, Unity</p>
+                            <p id="project-main-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, nam suscipit eligendi consequatur exercitationem id molestiae similique voluptatum at facere possimus vel tempora nulla, beatae inventore esse culpa impedit dicta? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nostrum illo consequuntur autem quaerat, repellendus sint ad earum dolore alias aliquam harum voluptates expedita, dicta modi iste minima id dolorum!</p>
                         </div>
                         <div class="modal-footer">
-                            <h3>Modal Footer</h3>
+                            <div id="modal-footer">
+                                <img id="port-git-link" class="port-icon" src="images/github-logo.png">
+                                <img id="port-ext-link" class="port-icon" src="images/external.png">
+                            </div>
                         </div>
                     </div>
                 </div>
       
+                <!-- Portfolio Elements -->
                 <div class="element">
                     <div class="portImg" id="news-collective">
                         <p class="portTitle">News Collective</p>

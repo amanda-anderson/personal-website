@@ -80,13 +80,21 @@ jQuery(function(){
  });
 
  // Modal popup for portfolio
-var modal = document.getElementById('myModal');
+var modal = document.getElementById('portModal');
 var btn = document.getElementById('news-collective');
 var span = document.getElementsByClassName("close")[0];
 
-btn.onclick = function() { modal.style.display = "block"; }
-span.onclick = function() { modal.style.display = "none"; }
+btn.onclick = function() { 
+    modal.style.display = "block";
+    $("#portModal").hide();
+    $("#portModal").fadeIn();
+}
+span.onclick = function() { 
+    $("#portModal").fadeOut();
+}
 
 window.onclick = function(event) {
-  if (event.target == modal) { modal.style.display = "none";}
+  if (event.target == modal) { 
+        $("#portModal").fadeOut();
+    }
 }

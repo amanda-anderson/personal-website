@@ -363,19 +363,21 @@ nav a:hover {
   }
 
   .modal-content {
-    background-color: #232323;
+    background-color: #1b1b1b;
     margin: 15% auto;
-    padding: 20px;
+    padding: 10px;
     border: 2px solid palevioletred;
     border-radius: 2px;
     width: 650px;
+    min-height: 325px;
   }
-  
+
   .close {
     color: #aaa;
     float: right;
-    font-size: 28px;
+    font-size: 28pt;
     font-weight: bold;
+    margin-top: -16px;
   }
   
   .close:hover,
@@ -383,4 +385,32 @@ nav a:hover {
     color: palevioletred;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .port-icon {
+      height: 40px;
+      width: 40px;
+      padding: 10px;
+      margin-top: 55px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .port-icon:hover {
+      transform: scale(1.05);
+  }
+
+  #project-main-text {
+      padding-right: 20px;
+      padding-left: 20px;
+  }
+
+  #project-title {
+      color: #eebecd;
+      padding: 10px;
+  }
+
+  #project-key-words {
+      color: palevioletred;
+      padding-bottom: 15px;
   }
