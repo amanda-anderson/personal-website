@@ -93,7 +93,7 @@ jQuery(function(){
 
     if (id == "news-collective"){
         document.getElementById("project-title").innerHTML= "News Collective";
-        mainText = "Single-page web app for viewing breaking news stories from multiple publishers. Using NewsAPI creates a simpler and more efficient way to keep up-to-date on world news and is updated in real-time. Future work on this project includes building a user portal with a personalized news feed, as well s transitioning the app into a PWA that can be downloaded for offline use.";
+        mainText = "Single-page web app for viewing breaking news stories from multiple publishers. Using NewsAPI creates a simpler and more efficient way to keep up-to-date on world news and is updated in real-time. Future work on this project includes building a user portal with a personalized news feed, as well as transitioning the app into a PWA that can be downloaded for offline use.";
         keyWords = "HTML/CSS, Ajax, NewsAPI";
         gitLink = "https://github.com/amanda-anderson/News-Collective";
         extLink = "https://amanda-anderson.github.io/news-collective/";
