@@ -287,28 +287,47 @@ nav a:hover {
 
 #portfolio-grid {
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
 }
 
 .element {
-    height: 250px;
-    width: 250px;
+    height: 275px;
+    width: 275px;
+    margin: 15px;
     background-color: white;
+    border: 3px solid white;
 }
 
 .portImg {
-    height: 200px;
-    width: 250px;
-    background-color: pink;
+    height: 220px;
+    width: 275px;
+    filter: grayscale(100%);
+}
+
+.portImg:hover {
+    filter: grayscale(25%);
+    transition: filter 0.5s;
 }
 
 .portTitle {
-    padding-top: 205px;
+    padding-top: 230px;
     font-weight: bold;
     color: rgb(31, 31, 31);
 }
 
 .portLangs {
-    background: url("");
     font-size: 11pt;
+    color: palevioletred;
+}
+
+#news-collective {
+    background: url("https://github.com/amanda-anderson/personal-website-V2/blob/master/images/news-collective.PNG?raw=true");
+    background-size: contain;
+    background-position: center;
+}
+
+#isles-dunya {
+    background: url("https://github.com/amanda-anderson/personal-website-V2/blob/master/images/news-collective.PNG?raw=true");
+    background-size: contain;
+    background-position: center;
 }
