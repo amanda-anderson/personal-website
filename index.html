@@ -56,21 +56,18 @@
             <p style="font-size: 16pt;">Where I've Worked</p><br>
             <div id="exp-explorer">
                 <div id="job-title-list">
-                    <button href="#" class="job-title">Quality Assurance Analyst</button>
-                    <button href="#" class="job-title">AR Development Intern</button>
-                    <button href="#" class="job-title">Research Assistant</button>
-                    <button href="#" class="job-title">Asset Management Student</button>
-                    <button href="#" class="job-title">Environmental Engineering Assistant</button>
+                    <button id="latestJob" onclick="displayJobDesc('1', 'Quality Assurance Analyst', 'Jan 2018 - Apr 2018', 'TELUS')" class="job-title">Quality Assurance Analyst</button>
+                    <button onclick="displayJobDesc('2', 'AR Development Intern', 'May 2017 - Aug 2017', 'Darteq')" class="job-title">AR Development Intern</button>
+                    <button onclick="displayJobDesc('3', 'Research Assistant', 'May 2016 - May 2017', 'University of Guelph')" class="job-title">Research Assistant</button>
+                    <button onclick="displayJobDesc('4', 'Asset Management Student', 'Sep 2015 - Dec 2015', 'Water Services - Region of Waterloo') " class="job-title">Asset Management Student</button>
+                    <button onclick="displayJobDesc('5', 'Environmental Engineering Assistant', 'Jan 2015 - Apr 2015', 'City of Mississauga')" class="job-title">Environmental Engineering Assistant</button>
                 </div>
                 <div id="job-detail-box">
                     <div id="selected-job-title">Job Title</div>
                     <div id="date-worked">Date Worked</div>
                     <div id="company-name">Company Name</div>
                     <div id="job-description">
-                        <ul id="job-desc-points">
-                            <li>Job Point 1</li>
-                            <li>Job Point 2</li>
-                        </ul>
+                        <ul id="job-desc-points"></ul>
                     </div>
                 </div>
             </div>
