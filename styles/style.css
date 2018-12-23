@@ -101,8 +101,16 @@ nav a:hover {
 }
 
 #section5 {
-    background-color: rgb(134, 134, 134);
+    background: url("https://raw.githubusercontent.com/amanda-anderson/personal-website-V2/master/images/contact-background.jpg");
+    background-color: rgb(31, 31, 31);
+    text-align: center;
     color: white;
+
+    /* Parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #intro-line1 {
