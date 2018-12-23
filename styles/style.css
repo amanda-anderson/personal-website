@@ -333,7 +333,13 @@ nav a:hover {
 }
 
 #spooky-soo {
-    background: url("https://github.com/amanda-anderson/personal-website-V2/blob/master/images/isles-of-dunya.png?raw=true");
+    background: url("https://github.com/amanda-anderson/personal-website-V2/blob/master/images/spooky-soo.png?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+#viking-village {
+    background: url("https://github.com/amanda-anderson/personal-website-V2/blob/master/images/spooky-soo.png?raw=true");
     background-size: cover;
     background-position: center;
 }
