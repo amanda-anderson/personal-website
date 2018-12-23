@@ -86,11 +86,28 @@ jQuery(function(){
     var modal = document.getElementById('portModal');
     var btn = document.getElementById(id);
     var span = document.getElementsByClassName("close")[0];
+    var keyWords = "";
+    var mainText = "";
+    var gitLink = "";
+    var extLink = "";
+
+    if (id == "news-collective"){
+        document.getElementById("project-title").innerHTML= "News Collective";
+        mainText = "Single-page web app for viewing breaking news stories from multiple publishers. Using NewsAPI creates a simpler and more efficient way to keep up-to-date on world news and is updated in real-time. Future work on this project includes building a user portal with a personalized news feed, as well s transitioning the app into a PWA that can be downloaded for offline use.";
+        keyWords = "HTML/CSS, Ajax, NewsAPI";
+        gitLink = "https://github.com/amanda-anderson/News-Collective";
+        extLink = "https://amanda-anderson.github.io/news-collective/";
+    }
+
+    document.getElementById("project-main-text").innerHTML = mainText;
+    document.getElementById("project-key-words").innerHTML = keyWords;
+    document.getElementById("port-git-link").href = gitLink;
+    document.getElementById("port-ext-link").href = extLink;
 
         modal.style.display = "block";
         $("#portModal").hide();
         $("#portModal").fadeIn();
-        
+
     span.onclick = function() { 
         $("#portModal").fadeOut();
     }
