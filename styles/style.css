@@ -172,6 +172,12 @@ nav a:hover {
     margin-top: 5%;
 }
 
+#about-desc {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .social-icon {
     height: 50px;
     width: auto;
@@ -228,7 +234,7 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding-left: 100px;
+
 }
 
 #exp-explorer {
@@ -313,12 +319,13 @@ nav a:hover {
     width: 275px;
     margin: 15px;
     margin-left: 22px;
+    border-radius: 3px;
     background-color: white;
     border: 3px solid white;
 }
 
 .element:hover {
-    transform: scale(1.005);
+    transform: scale(1.02);
 }
 
 .portImg {
@@ -480,5 +487,139 @@ table {
 }
 
 #SubmitButton:hover {
-    background-color: #9f516a;
+    transform: scale(1.03);
+}
+
+input,
+textarea,
+select {
+    outline: 0;
+}
+
+/* Width 1020 */
+@media screen and (max-width: 1020px){
+
+    #about {
+        background-color: rgba(1, 1, 1, 0.5);
+        width: 80%;
+        display: inline-block;
+        padding: 20px;
+        border-radius: 4px;
+    }
+    
+    #experience {
+        width: 100%;
+        display: inline-block;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: auto;
+    }
+    
+    #portfolio {
+        width: 960px;
+        display: inline-block;
+        padding: 20px;
+        margin-bottom: auto;
+    }
+    
+    #contact {
+        width: 645px;
+        display: inline-block;
+        padding: 20px;
+        margin-bottom: auto;
+        background-color: rgba(1, 1, 1, 0.75);
+        border-radius: 5px;
+        margin-top: 5%;
+    }
+    
+    #about-desc {
+        width: 100%;
+    }
+
+    #intro {
+        width: 75%
+    }
+
+    #intro-line1, #intro-line2, #intro-line3 {
+        width: 100%;
+        overflow-wrap: normal;
+    }
+
+    #exp-explorer {
+        width: 75%;
+    }
+
+    #selected-job-title {
+        width: 60%;
+    }
+
+    #date-worked {
+        width: 40%;
+    }
+
+    #job-detail-box {
+        overflow: scroll;
+        height: 350px;
+    }
+}
+
+/* Width 1020 */
+@media screen and (max-width: 600px){
+
+    nav a{
+        font-size: 10pt;
+    }
+
+    #intro {
+        width: 100%
+    }
+
+    #intro-line1, #intro-line2, #intro-line3 {
+        width: 100%;
+        overflow-wrap: normal;
+    }
+
+    #familiar-tech {
+        columns: 1;
+        margin-right: 0;
+        margin-left: 22%;
+    }
+
+    #experience {
+        padding: 0px;
+    }
+
+    #exp-explorer {
+        width: 100%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #jobBtn, #latestJob {
+        margin: 3px;
+    }
+
+    #job-title-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center !important;
+    }
+    #selected-job-title {
+        width: 60%;
+    }
+
+    #date-worked {
+        width: 40%;
+    }
+
+    #job-detail-box {
+        overflow: scroll;
+        height: 350px;
+        width: 93% !important;
+        margin: 0;
+        margin-top: 5px;
+    }
 }
