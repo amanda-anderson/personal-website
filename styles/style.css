@@ -9,6 +9,8 @@
  * 
 */
 
+
+
 *{
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -17,6 +19,10 @@
 html, body{
     height: 100%;
     width: 100%;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar { 
@@ -444,15 +450,16 @@ nav a:hover {
 }
 
 #ContactForm {
-  width: 100%;
-  padding: 10px;
+  width: 80%;
+  padding-left: 15px;
   text-align: center;
-  display: block;
+  display: inline;
 }
 
 table {
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 #contactForm {
@@ -578,6 +585,11 @@ select {
   .modal-content {
     width: 65%;
   }
+
+  #contact {
+    width: 80%;
+    }
+
 }
 
 /* Width 600 */
