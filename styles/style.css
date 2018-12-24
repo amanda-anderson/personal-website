@@ -162,6 +162,16 @@ nav a:hover {
     margin-bottom: auto;
 }
 
+#contact {
+    width: 645px;
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: auto;
+    background-color: rgba(1, 1, 1, 0.8);
+    border-radius: 5px;
+    margin-top: 10%;
+}
+
 .social-icon {
     height: 50px;
     width: auto;
@@ -421,3 +431,64 @@ nav a:hover {
       color: palevioletred;
       padding-bottom: 15px;
   }
+
+  #tableContact {
+    width: 100%;
+    align: center;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    font-size: 18px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+::placeholder {
+    color: palevioletred;
+}
+
+#ContactForm {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  display: block;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contactForm {
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    font-size: 18px;
+    width: 100%;
+    color: palevioletred;
+}
+
+#contactFormMsg {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    color: palevioletred;
+}
+
+#SubmitButton {
+    text-align:center;
+    background-color: palevioletred;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 6px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 5%;
+    margin-right: -10px;
+    color: #fff;
+    border: none !important;
+}
+
+#SubmitButton:hover {
+    background-color: #9f516a;
+}
