@@ -588,12 +588,12 @@ select {
     * {
         width: auto;
     }
-    
+
     nav{
         position: fixed;
         height: 50px;
         color: white;
-        width: 100%;
+        width: auto;
         line-height: 20px;
         padding: 0 10px;
     }
