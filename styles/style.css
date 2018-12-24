@@ -585,6 +585,10 @@ select {
 /* Width 600 */
 @media screen and (max-width: 600px){
 
+    * {
+        width: auto;
+    }
+    
     nav{
         position: fixed;
         height: 50px;
