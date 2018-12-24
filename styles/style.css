@@ -596,7 +596,8 @@ select {
     }
 
     #intro {
-        width: 100%
+        width: 100%;
+        margin-top: 50px;
     }
 
     #intro-line1, #intro-line2, #intro-line3 {
