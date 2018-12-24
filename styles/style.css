@@ -432,16 +432,6 @@ nav a:hover {
       padding-bottom: 15px;
   }
 
-  #tableContact {
-    width: 100%;
-    align: center;
-    font-family: 'Raleway', sans-serif;
-    text-align: right;
-    font-size: 18px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 ::placeholder {
     color: palevioletred;
 }
