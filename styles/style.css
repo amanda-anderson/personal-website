@@ -602,9 +602,9 @@ select {
     }
 
     #intro-line1 {
-        padding-top: 30px;
+        padding-top: 10px;
     }
-    
+
     #intro-line1, #intro-line2, #intro-line3 {
         width: 100%;
         overflow-wrap: normal;
