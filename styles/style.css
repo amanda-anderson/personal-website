@@ -501,6 +501,11 @@ select {
 /* Width 1020 */
 @media screen and (max-width: 1020px){
 
+    html, body {
+        height: auto;
+        overflow-x: hidden;
+    }
+    
     #about {
         width: 80%;
         padding: 20px;
@@ -579,8 +584,8 @@ select {
     html, body {
         height: auto;
         overflow-x: hidden;
-
     }
+
     nav{
         position: fixed;
         color: white;
