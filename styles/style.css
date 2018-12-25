@@ -19,10 +19,6 @@ html, body{
     width: 100%;
 }
 
-html {
-overflow-x: auto;
-}
-
 ::-webkit-scrollbar { 
     display: none; 
 }
@@ -580,6 +576,11 @@ select {
 /* Width 600 */
 @media screen and (max-width: 600px){
 
+    html, body {
+        height: auto;
+        overflow-x: hidden;
+
+    }
     nav{
         position: fixed;
         color: white;
