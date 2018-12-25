@@ -112,7 +112,7 @@ jQuery(function(){
         mainText = "A Halloween-themed interactive web map showcasing Sault Ste Marie's most spooky locations. Do you have a location that should be included? Send me an email via the contact page!";
         keyWords = "Leaflet.js, HTML/CSS";
         gitLink = "https://github.com/amanda-anderson/spooky-soo";
-        extLink = "https://spookysoo.000webhostapp.com/";
+        extLink = "https://amanda-anderson.github.io/spooky-soo/";
     }
 
     document.getElementById("project-main-text").innerHTML = mainText;
