@@ -594,9 +594,32 @@ select {
         margin-right: 8px;
     }
 
+    #intro {
+        width: 90%;
+    }
+
+    #intro-line1 {
+        padding-top: 0px;
+    }
+
     #intro-line1, #intro-line2, #intro-line3 {
         width: 100%;
         overflow-wrap: normal;
+    }
+    .social-icon {
+        padding-bottom: 10px;
+    }
+
+    #about {
+        padding-bottom: 20px;
+    }
+
+    #section3 {
+        padding: 70px 8px 8px 8px;
+    }
+
+    #section4 {
+        padding: 60px 8px 8px 8px;
     }
 
     #familiar-tech {
