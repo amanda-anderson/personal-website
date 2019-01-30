@@ -23,6 +23,13 @@ html, body{
     display: none; 
 }
 
+img[src*="000webhost"],
+img[alt*="000webhost"],
+a[title*="000webhost"], 
+a[href*="000webhost"]{
+	display: none;
+}
+
 .wrapper{
     height: 100%;
     width: 100%;
