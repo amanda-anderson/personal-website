@@ -1,3 +1,10 @@
+// Fade in main section elements on page load
+$('nav').first().delay(250).animate({'opacity':'1'},1000);
+$('#intro-line1').last().delay(650).animate({'opacity':'1'},800);
+$('#intro-line2').delay(650).animate({'opacity':'1'},800);
+$('#intro-line3').delay(650).animate({'opacity':'1'},800);
+$('.social-icon').delay(1200).animate({'marginTop':'+=-400px','opacity':'1'},600);
+
 // Scroll to section animation on nav click, lock nav link colour
 $("a").click(function (e) {
     var i;

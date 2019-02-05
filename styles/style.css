@@ -40,6 +40,7 @@ a[href*="000webhost"]{
     width: 100%;
     box-sizing: border-box;
     padding: 85px 8px 8px 8px;
+    padding-bottom: 35px;
 }
 
 nav{
@@ -52,6 +53,7 @@ nav{
     box-sizing: border-box;
     padding: 0 10px;
     z-index: 3;
+    opacity: 0;
 }
 
 nav a{
@@ -133,17 +135,20 @@ nav a:hover {
     font-weight: bold;
     padding-bottom: 15px;
     padding-top: 50px;
+    opacity: 0;
 }
 
 #intro-line2 {
     font-size: 30pt;
     padding-bottom: 15px;
+    opacity: 0;
 }
 
 #intro-line3 {
     font-size: 15pt;
     width: 800px;
     padding-bottom: 30px;
+    opacity: 0;
 }
 
 #intro {
@@ -198,6 +203,8 @@ nav a:hover {
     height: 50px;
     width: auto;
     padding-right: 18px;
+    opacity: 0;
+    margin-top: 400px;
 }
 
 #home-btn {
