@@ -109,7 +109,7 @@ jQuery(function(){
     if (id == "isles-dunya"){
         document.getElementById("project-title").innerHTML= "Isles of Dunya";
         mainText = "A personal game project with the goal of creating a challenging and fun 3D platformer with low poly models and smooth game physics. In the Isles of Dunya, the player must help the character collect special flowers to unlock passage to the next level. The player must maneuver through a variety of tricky obstacles without falling off.";
-        keyWords = "Unity, C#";
+        keyWords = "Unity 3D, C#";
         gitLink = "https://github.com/amanda-anderson/isles-of-dunya";
         extLink = "https://www.youtube.com/watch?v=DTBmSJ3MSu8";
     }
@@ -120,6 +120,14 @@ jQuery(function(){
         keyWords = "Leaflet.js, HTML/CSS";
         gitLink = "https://github.com/amanda-anderson/spooky-soo";
         extLink = "https://amanda-anderson.github.io/spooky-soo/";
+    }
+
+    if (id == "leaf-lad"){
+        document.getElementById("project-title").innerHTML= "Leaf Lad: Polluted Lands";
+        mainText = "A 2D platformer prototype built in 48 hours for Global Game Jam 2019. The theme for this year was 'What home means to you'. <br><br> Humanity has cluttered our planet with litter and smoke. Join Leaf Lad on his quest to defeat pollution monsters and save Planet Earth - the only home we have!";
+        keyWords = "Unity 3D, C#";
+        gitLink = "https://github.com/amanda-anderson/";
+        extLink = "https://amanderson.itch.io/leaf-lad-polluted-lands";
     }
 
     document.getElementById("project-main-text").innerHTML = mainText;
