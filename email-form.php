@@ -10,5 +10,5 @@
    $mailheader = "From: $email \r\n";
    mail($recipient, $header, $message, $telephone) or die("Error!");
    echo "<script>console.log('name: " . $first_name. "');</script>";
-   echo "Thank You!";
+   echo "<script>window.location.href('https://amandaanderson.io');</script>";
 ?>
