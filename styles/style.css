@@ -71,7 +71,7 @@ nav a:hover {
 }
 
 #section1 {
-    background: url("https://raw.githubusercontent.com/amanda-anderson/personal-website-V2/master/images/intro-background.jpg");
+    background: url("https://raw.githubusercontent.com/amanda-anderson/personal-website/master/images/intro-background_mini.jpg");
     background-color: rgb(31, 31, 31);
     color: white;
     text-align: center;
@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 #section2 {
-    background: url("https://raw.githubusercontent.com/amanda-anderson/personal-website/master/images/about-background.jpg");
+    background: url("https://raw.githubusercontent.com/amanda-anderson/personal-website/master/images/about-background_mini.jpg");
     background-color: rgb(31, 31, 31);
     color: white;
     text-align: center;
@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 #section3 {
-    background: url("https://raw.githubusercontent.com/amanda-anderson/personal-website-V2/master/images/exper-background.jpg");
+    background: url("https://raw.githubusercontent.com/amanda-anderson/personal-website/master/images/exper-background_mini.jpg");
     background-color: rgb(31, 31, 31);
     text-align: center;
     color: white;
@@ -118,7 +118,7 @@ nav a:hover {
 }
 
 #section5 {
-    background: url("https://raw.githubusercontent.com/amanda-anderson/personal-website-V2/master/images/contact-background.jpg");
+    background: url("https://raw.githubusercontent.com/amanda-anderson/personal-website/master/images/contact-background_mini.jpg");
     background-color: rgb(31, 31, 31);
     text-align: center;
     color: white;
