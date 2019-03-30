@@ -60,6 +60,7 @@ nav a{
     text-decoration: none;
     color: white;
     margin-right: 50px;
+    transition: 0.2s;
 }
 
 nav a:hover {
@@ -205,6 +206,7 @@ nav a:hover {
     padding-right: 18px;
     opacity: 0;
     margin-top: 400px;
+    transition: 0.3s;
 }
 
 #home-btn {
@@ -345,6 +347,7 @@ nav a:hover {
     border-radius: 3px;
     background-color: white;
     border: 3px solid white;
+    transition: 0.3s;
 }
 
 .element:hover {
@@ -507,6 +510,7 @@ table {
     margin-right: -10px;
     color: #fff;
     border: none !important;
+    transition: 0.3s;
 }
 
 #SubmitButton:hover {
