@@ -98,6 +98,14 @@ jQuery(function(){
     var gitLink = "";
     var extLink = "";
 
+    if (id == "tra"){
+        document.getElementById("project-title").innerHTML= "TRA Website Design";
+        mainText = "Our team created the winning website design for Therapeutic Ride Algoma, a local not-for-profit organization in Sault Ste Marie, Canada. Given the nature of TRA, we wanted to create a website that was simple to navigate and fully accessible for those with visual or motor skill impairment. The competition consisted of an 8-week website development bootcamp working with Jeff Greco, CEO of Cavera Inc.";
+        keyWords = "WordPress, UI/UX Design, Accessibility";
+        gitLink = "https://github.com/amanda-anderson";
+        extLink = "http://coconuttree.careerlinkbootcamp.net/";
+    }
+
     if (id == "news-collective"){
         document.getElementById("project-title").innerHTML= "News Collective";
         mainText = "Single-page web app for viewing breaking news stories from multiple publishers. Using NewsAPI creates a simpler and more efficient way to keep up-to-date on world news and is updated in real-time. Future work on this project includes building a user portal with a personalized news feed, as well as transitioning the app into a PWA that can be downloaded for offline use.";

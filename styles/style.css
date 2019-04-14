@@ -376,6 +376,12 @@ nav a:hover {
     color: palevioletred;
 }
 
+#tra {
+    background: url("https://raw.githubusercontent.com/amanda-anderson/personal-website/master/images/tra_website2.png");
+    background-size: contain;
+    background-position: center;
+}
+
 #news-collective {
     background: url("https://github.com/amanda-anderson/personal-website-V2/blob/master/images/news-collective.PNG?raw=true");
     background-size: contain;
