@@ -32,6 +32,18 @@ function displayJobDesc(btnID, title, date, company) {
     document.getElementById("date-worked").innerHTML = date;
     document.getElementById("company-name").innerHTML = company;
     document.getElementById("job-desc-points").innerHTML = "";
+    
+    if (btnID == 0) {
+        description = '<li>Maintenance and development of Carmenta Map Builder product</li>';
+        description += '<li>Maintenance and development of Carmenta Engine Geospatial SDK (C++)</li>';
+        description += '<li>API refactoring and migration handling at runtime</li>';
+        description += '<li>Automated and manual test development</li>';
+        description += '<li>.NET, C#, MVVM Architecture, NUnit</li>';
+        description += '\n';
+        description += '<li style="margin-top:20px;">MSc Thesis Project (01/2021 - 07/2021) on the topic of multi-objective optimization. Published online on <a href=" http://hdl.handle.net/2077/69356">GUPEA</a>.</li>';
+        
+        document.getElementById("job-desc-points").innerHTML = description;
+    }
 
     if (btnID == 1) {
         description = '<li>Recommend opportunities for test automation using SQL and Batch scripts to improve workflows</li>';
