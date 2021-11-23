@@ -98,6 +98,20 @@ jQuery(function(){
     var gitLink = "";
     var extLink = "";
 
+     if (id == "webgl") {
+         document.getElementById("project-title").innerHTML = "WebGL Demo Projects";
+         mainText = "A collection of introductory WebGL graphics projects completed as coursework (designed for desktop):"
+                    + '<br><br><a href="http://turing.algomau.ca/~aanderson/3306_Graphics/Assignment2/assignment2.html">2D Drawing</a>'
+                    + '<br><a href="http://turing.algomau.ca/~aanderson/3306_Graphics/Assignment4/A4_aanderson.html">2D Animation</a>'
+                    + '<br><a href="http://turing.algomau.ca/~aanderson/3306_Graphics/Assignment3/Clipping_aanderson.html">Line Clipping Algorithms</a>'
+                    + '<br><a href="http://turing.algomau.ca/~aanderson/Activity11/aanderson_A5.html">3D Shapes</a>'
+                    + '<br><a href="http://turing.algomau.ca/~aanderson/A6/imageFilters.html">Image Filtering</a>'
+                    + '<br><a href="http://turing.algomau.ca/~aanderson/FinalProject/aanderson_Final.html">Final Project: 3D Aquarium Simulator</a>';
+         keyWords = "WebGL, JavaScript";
+         gitLink = "https://github.com/amanda-anderson/webgl-projects";
+         extLink = "http://turing.algomau.ca/~aanderson/";
+     }
+
     if (id == "tra"){
         document.getElementById("project-title").innerHTML= "TRA Website Design";
         mainText = "Our team created the winning website design for Therapeutic Ride Algoma, a local not-for-profit organization in Sault Ste Marie, Canada. Given the nature of TRA, we wanted to create a website that was simple to navigate and fully accessible for those with visual or motor skill impairment. The competition consisted of an 8-week website development bootcamp working with Jeff Greco, CEO of Cavera Inc.";

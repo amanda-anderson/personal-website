@@ -67,6 +67,17 @@ nav a:hover {
     color: palevioletred;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(224, 156, 179);
+    transition: 0.2s;
+}
+
+a:hover {
+    color: rgb(218, 101, 140);
+}
+
+
 .active {
     color: palevioletred;
 }
@@ -374,6 +385,12 @@ nav a:hover {
 .portLangs {
     font-size: 11pt;
     color: palevioletred;
+}
+
+#webgl {
+    background: url("https://raw.githubusercontent.com/amanda-anderson/webgl-projects/master/2.JPG");
+    background-size: contain;
+    background-position: center;
 }
 
 #tra {
