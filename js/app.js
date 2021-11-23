@@ -34,9 +34,10 @@ function displayJobDesc(btnID, title, date, company) {
     document.getElementById("job-desc-points").innerHTML = "";
     
     if (btnID == 0) {
-        description = '<li>Maintenance and development of Carmenta Map Builder product</li>';
-        description += '<li>Maintenance and development of Carmenta Engine Geospatial SDK (C++)</li>';
+        description = '<li>Maintenance and development of Carmenta Map Builder product and Carmenta Engine Geospatial SDK (C++)</li>';
+        description += '<li>Implemented support for 3D map packaging in Map Builder</li>';
         description += '<li>API refactoring and migration handling at runtime</li>';
+        description += '<li>Testing and troubleshooting on Windows, Linux and Android platforms</li>';
         description += '<li>Automated and manual test development</li>';
         description += '<li>.NET, C#, MVVM Architecture, NUnit</li>';
         description += '\n';
